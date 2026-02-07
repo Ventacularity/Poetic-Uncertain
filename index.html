@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>uncertain poem</title>
+  <style>
+    body {
+      font-family: serif;
+      background: #f6f5f2;
+      padding: 8vh;
+      line-height: 1.6;
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 1em;
+      margin-right: 0.5em;
+    }
+
+    #poem {
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+  <textarea id="thought" placeholder="type a thought..."></textarea><br>
+
+  <button id="generate">generate</button>
+  <button id="regen">generate again</button>
+
+  <div id="poem"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
