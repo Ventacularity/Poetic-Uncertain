@@ -1,6 +1,5 @@
 /*
-  This piece treats the user's words as material.
-  Meaning is not added — it is rearranged through structure.
+  This piece treats the user's words as material where some poetic phrases are added.
 */
 
 // Sentence templates grouped by role.
