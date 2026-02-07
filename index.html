@@ -2,6 +2,11 @@
 <html>
 <head>
   <title>uncertain poem</title>
+
+  <!--
+    Minimal layout to keep attention on language.
+    Constraint-based prompt frames the interaction as intentional.
+  -->
   <style>
     body {
       font-family: serif;
@@ -26,15 +31,25 @@
     }
   </style>
 </head>
+
 <body>
 
-  <textarea id="thought" placeholder="type a thought..."></textarea><br>
+  <!-- User input with explicit constraint -->
+  <textarea
+    id="thought"
+    placeholder="describe a thought in 10 words or fewer"
+    maxlength="80"
+  ></textarea><br>
 
+  <!-- Controls -->
   <button id="generate">generate</button>
   <button id="regen">generate again</button>
 
+  <!-- Output -->
   <div id="poem"></div>
 
+  <!-- Generative logic -->
   <script src="script.js"></script>
+
 </body>
 </html>
